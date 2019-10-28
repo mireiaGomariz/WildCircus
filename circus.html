@@ -1,0 +1,193 @@
+<!--
+In order to validate your HTML code, click on the arrow at the top right of this window. If you have some problems with validation, you can have a look here  : https://blog.codepen.io/2017/10/11/analyze-css-now-using-stylelint/
+-->
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+      <meta charset="UTF-8">
+      <link rel="stylesheet" href="circus.css">
+
+
+      <title>Wild Circus</title>
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+
+  </head>
+
+  <body>
+    <header>
+
+
+        <h1>Wild Circus</h1>
+        <nav>
+          <ul>
+              <!-- TODO: every menu link drive us to the specific section -->
+              <li><a href="#performances">Performances</a></li>
+              <li><a href="#aboutus">About Us</a></li>
+              <li><a href="#prices">Prices</a></li>
+              <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+      <div class="container">
+
+        <section>
+          <h2>Performances</h2>
+          <!-- TODO: With your CSS, put the three performances here  ("lough", "dream, "marvel at") on the same line, without the generated dot. Becareful, only use the CSS in order to align everything, you must not remove the <li> tags.-->
+          <ul id=performances class="performance">
+            <!-- performance 1 -->
+            <li class="laugh">
+              <div class="card">
+                <h3>Laugh</h3>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/3/39/Payasos_de_Circo_Americano_de_DavidDaguerro.jpg" alt="elephant" class="imgPerformance">
+                <p>As an adult, come and discover our irresistible clowns, between practical jokes and pranks let yourself be carried away by their joy and fall back into childhood.</p>
+
+              </div>
+            </li>
+            <!-- performance 2 -->
+             <li class="dream">
+               <div class="card">
+                <h3>Dream</h3>
+                <img src="https://farm2.staticflickr.com/1945/45271311851_623b70e4bd_b.jpg" alt="dream" class="imgPerformance">
+                <p>Let yourself be carried away in a world where the real and the imaginary are one, in the company of our talented magicians, discover a wonderful world limited only by your imagination.</p>
+              </div>
+             </li>
+
+
+             <!-- performance 3 -->
+             <li class="marvel">
+              <div class="card">
+               <h3>Marvel at</h3>
+               <img src="https://cdn.pixabay.com/photo/2018/12/24/00/30/circus-3892039_960_720.jpg" alt="marvel" class="imgPerformance">
+
+                <p>Tame the untameable in the company of our tamers, between roar and razor-sharp claws, watch these fierce felines turn into sweet kittens.</p>
+              </div>
+             </li>
+          </ul>
+
+
+        </section>
+
+        <hr/>
+
+        <section>
+          <div class="centerlize">
+              <h2 class="titleAbout" id=aboutus>About Us</h2>
+              <!-- TODO: This section hasn't been realized yet, . Cette section n'a pas encore été réalisée, you can show us here all of your creativity -->
+              <div class="w3-content w3-section">
+                  <img class="mySlides" src="https://c.pxhere.com/photos/96/af/gymnastics_acrobatics_artist_turnkunst_acrobats_artists-830539.jpg!d" >
+                  <img class="mySlides" src="https://cdn.pixabay.com/photo/2015/03/17/16/59/clown-678042_960_720.jpg" >
+                  <img class="mySlides" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiQcfabyMwlJIqGtn98FlhFmYUx6Nbhvi6CUT2g1BmncjtooN4&s" >
+              </div>
+              <p class="text2">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+              officia deserunt mollit anim id est laborum."
+              </p>
+          </div>
+
+
+        </section>
+
+        <hr/>
+
+        <section id=prices>
+          <h2 class="pricesTitle">Prices</h2>
+          <!-- TODO:  Create a table with all the prices (hint :  increase the size of the window in order to see all of the table.
+
+                                    | Adults  | Children under 12       | Groups (more than 10)          | Schools
+            Weels (without wed.)    |         |                         |                                |
+            weekend et wednesday    |         |                         |                                |
+          -->
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvUrsJoSZQG7WffqkcAZJRoBogrA64rnRWZwtXqqlKwPbEBw0G&s" alt="imageprice" class="imagePrice">
+
+          <table cellpadding="2" cellspacing="3">
+
+            <tr>
+
+              <th scope="row">Prices</th>
+
+              <th>Adults</th>
+
+              <th>Children under 12</th>
+
+              <th>Groups > than 10</th>
+
+              <th>Schools</th>
+
+            </tr>
+
+            <tr>
+
+              <th>Weels (without wed.) </th>
+
+              <td> 20€</td>
+              <td> 15€</td>
+              <td> 10€</td>
+              <td> 8€</td>
+
+            </tr>
+
+            <tr>
+
+              <th>weekend et wednesday</th>
+
+              <td>22€</td>
+
+              <td>18€</td>
+
+              <td>15€</td>
+
+              <td>10€</td>
+
+            </tr>
+
+          </table>
+        </section>
+
+        <hr/>
+
+        <section id=contact>
+          <h2>Contact Us</h2>
+          <!-- TODO: Create a contact form with the inputs for the email and message, add the send button at the end. Don't forget to add the labels on the inputs.
+                This form doesn't need to be functional, just create the layout.
+          -->
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Circo_del_Sol.JPG/1280px-Circo_del_Sol.JPG" alt="imagecontact" class="imageContact">
+          <form>
+            <label for="name"> Name</label>
+            <input placeholder="Name" type="text" name="name">
+            <label for="name"> Email</label>
+            <input placeholder="Email" type="text" name="email">
+            <label for="name"> Message</label>
+            <input placeholder="Message" type="text" name="message">
+
+              <input type="submit" value="Enviar" class="button">
+              <input type="reset" value="Borrar" class="button">
+            </p>
+          </form>
+        </section>
+
+      </div>
+
+
+      <footer>
+        <div class="footer">
+          <p>Wild Circus by Mireia Perez Gomariz -
+            <a href="https://www.codecademy.com/users/MireiaGomariz/achievements"> Codeacademy</>
+            <a href="https://www.sololearn.com/Profile/16084622#">SoloLearn</a>
+
+            <a href="https://wildcodeschool.com "> Wild Code School</a> [October 16, 2019]</p>
+
+        </div>
+        <!-- TODO: Add your last name and first name.
+          Place the link pointing on the Wild Code School website (https://wildcodeschool.com).
+          You can also add the link to your own website, blog or Github profile.
+         -->
+
+      </footer>
+      <script type="text/javascript" src="circus.js"></script>
+
+
+  </body>
+
+</html>
